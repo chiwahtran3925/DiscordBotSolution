@@ -1,0 +1,6 @@
+@DiscordBotSolution.BotApi_HostAddress = http://localhost:5257
+
+GET {{DiscordBotSolution.BotApi_HostAddress}}/bot/
+Accept: application/json
+
+###

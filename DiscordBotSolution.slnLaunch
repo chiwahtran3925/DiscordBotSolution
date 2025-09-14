@@ -1,0 +1,19 @@
+[
+  {
+    "Name": "New Profile",
+    "Projects": [
+      {
+        "Path": "DiscordBotSolution.BotApi\\DiscordBotSolution.BotApi.csproj",
+        "Action": "Start"
+      },
+      {
+        "Path": "discordbotsolution.BotApp\\DiscordBotSolution.BotApp.esproj",
+        "Action": "Start"
+      },
+      {
+        "Path": "DiscordBotSolution.BotWorker\\DiscordBotSolution.BotWorker.csproj",
+        "Action": "Start"
+      }
+    ]
+  }
+]
