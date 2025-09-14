@@ -88,18 +88,21 @@ Non Functional
  - Swashbuckle for Swagger
 
 # How to Run
-Run the BotApi and BotWorker using below:
-```bash
-dotnet run --project DiscordBotSolution.BotApi
-dotnet run --project DiscordBotSolution.BotWorker
-```
+Open the solution in Visual Studio.
 
-Run the BotApp using below
-```bash
-npm install
-npm run dev
-```
+Set the startup projects:
+ - Right-click the solution → Set Startup Projects…
+ - Choose Multiple startup projects
+ - Set the Action for each project:
+   - DiscordBotSolution.BotApi → Start
+   - DiscordBotSolution.BotWorker → Start
+   - DiscordBotSolution.BotApp → Start (this will run the React frontend)
 
+Run the solution
+ - Press F5 or click Start
+ - This will launch the API, Worker, and React frontend all at once
+
+Make sure you’ve run npm install once inside the BotApp folder to install dependencies. 
 
 # Future Improvements
  - Smarter logging.
