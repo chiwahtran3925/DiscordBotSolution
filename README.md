@@ -8,7 +8,7 @@ Or go to your Environment Variables and add your DISCORD_TOKEN.
 
 # Project Overview
 
-This project was built as part of a take-home technical assessment to demonstrate my skills across C#, clean architecture, React, and testing.
+This project was built to demonstrate my skills across C#, clean architecture, React, and testing.
 
 A discord bot application that will process commands and respond to certain commands. A Frontend to see list of users where you can block and unblock them. A API to handle requests and interact with the database.
 
